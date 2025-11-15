@@ -1,0 +1,36 @@
+#Source code of our CoPINN-RE.
+
+#CoPINN-RE is a novel framework for simulating flow in roughness-free channels and for roughness inversion.
+
+#We recommend running the code using Docker.Moreover, taking Case 1 as an example, the steps for rapidly running through the code are provided.
+
+##Steps
+Step 1: ensure that Docker Desktop is installed. 
+
+Step 2: Build a Docker image . Enter the following command in the command line:
+docker build -t copinn-re:latest . 
+
+Step 3: Use the following code to run the training: 
+docker run -it --rm --gpus all -v D:/pyproject/CoPINN-RE/data:/app/data -v D:/pyproject/CoPINN-RE/results/case1:/app/results copinn-re:latest python -m src.main
+
+##Copyright Notice: This project and its associated code and documentation are protected by copyright law. Unauthorised reproduction, modification, distribution, or use for commercial purposes is strictly prohibited.
+
+##Licensing Terms: This project is licensed under an Academic Research Licence. You may:
+Use this code for academic research purposes
+Modify the code to suit your research requirements
+Cite this project with proper attribution
+
+
+##Prohibited:
+Using this project for commercial purposes
+Unauthorised redistribution of this code
+Removing or modifying the copyright notice
+
+##If you have any questions, please email:
+* Luziyan928@163.com(Ziyan Lu);
+* wang-t25@mails.tsinghua.edu.cn(Tao Wang);
+
+## Acknowledgement
+The code is inspired by https://github.com/siyuancncd/CoPINN
+
+
