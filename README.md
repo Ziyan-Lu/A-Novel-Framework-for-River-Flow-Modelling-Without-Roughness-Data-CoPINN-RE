@@ -2,7 +2,7 @@
 A Physically Guided Cognitive Scheduling Framework CoPINN-RE for Addressing Unbalanced Prediction Issues in River Flow Modelling Without Roughness Data
 #Source code of our CoPINN-RE.
 
-#CoPINN-RE is a novel framework for simulating flow in roughness-free channels and for roughness inversion.
+#CoPINN-RE is a framework for simulating flow in roughness-free channels and for roughness inversion.
 
 #We recommend running the code using Docker.Moreover, taking Case 1 as an example, the steps for rapidly running through the code are provided.
 
