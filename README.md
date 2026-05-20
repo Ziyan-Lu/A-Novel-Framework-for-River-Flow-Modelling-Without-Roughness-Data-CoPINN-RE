@@ -1,4 +1,4 @@
-# A-Novel-Framework-for-River-Flow-Modelling-Without-Roughness-Data-CoPINN-RE
+# A-Framework-for-River-Flow-Modelling-Without-Roughness-Data-CoPINN-RE
 A Physically Guided Cognitive Scheduling Framework CoPINN-RE for Addressing Unbalanced Prediction Issues in River Flow Modelling Without Roughness Data
 #Source code of our CoPINN-RE.
 
@@ -31,8 +31,4 @@ Removing or modifying the copyright notice
 ##If you have any questions, please email:
 * Luziyan928@163.com(Ziyan Lu);
 * wang-t25@mails.tsinghua.edu.cn(Tao Wang);
-
-## Acknowledgement
-The code is inspired by https://github.com/siyuancncd/CoPINN
-
 
